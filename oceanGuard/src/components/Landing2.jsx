@@ -194,149 +194,51 @@ const Landing2 = () => {
             </div>
           </div>
         </div>
-      </section>
 
-      <div id="blog" className="mb-20 mt-32">
-        <div className="max-w-7xl mx-auto px-6 md:px-12 xl:px-6">
-          <div className="mb-12 space-y-2 text-center">
-            <h2 className="text-3xl font-bold text-primary md:text-4xl dark:text-white">
-              Ocean Insights
-            </h2>
-            <p className="lg:mx-auto lg:w-6/12 text-gray-600 dark:text-gray-300">
-              Dive into articles on ocean conservation, beach clean-up
-              initiatives, and community actions to protect our seas. Get
-              inspired to join the movement and make a positive impact on our
-              marine ecosystems!
-            </p>
-          </div>
-          <div className="grid gap-8 md:grid-cols-2 lg:grid-cols-3">
-            <div className="group p-6 sm:p-8 rounded-3xl bg-white border border-gray-100 dark:shadow-none dark:border-gray-700 dark:bg-gray-800 bg-opacity-50 shadow-2xl shadow-gray-600/10">
-              <div className="relative overflow-hidden rounded-xl">
-                <img
-                  src={ImgTrash}
-                  alt="art cover"
-                  loading="lazy"
-                  width="1000"
-                  height="667"
-                  className="h-64 w-full object-cover object-top transition duration-500 group-hover:scale-105"
-                />
-              </div>
-              <div className="mt-6 relative">
-                <h3 className="text-2xl font-semibold text-gray-800 dark:text-white">
-                  The Hidden Impact of Plastic on Marine Life
-                </h3>
-                <p className="mt-6 mb-8 text-gray-600 dark:text-gray-300">
-                  Learn how plastic waste affects ocean ecosystems and what we
-                  can do to reduce pollution and protect marine biodiversity.
-                </p>
-                <a className="inline-block" href="#">
-                  <span className="text-info dark:text-blue-300">
-                    Read more
-                  </span>
-                </a>
-              </div>
+        <div className=" w-full flex justify-center items-center ">
+          <section>
+            <div className="max-w-screen-xl px-4 py-8 mx-auto text-center lg:py-24 lg:px-6">
+              <figure className="max-w-screen-md mx-auto">
+                <svg
+                  className="h-12 mx-auto mb-3 text-gray-400 dark:text-gray-600"
+                  viewBox="0 0 24 27"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M14.017 18L14.017 10.609C14.017 4.905 17.748 1.039 23 0L23.995 2.151C21.563 3.068 20 5.789 20 8H24V18H14.017ZM0 18V10.609C0 4.905 3.748 1.038 9 0L9.996 2.151C7.563 3.068 6 5.789 6 8H9.983L9.983 18L0 18Z"
+                    fill="currentColor"
+                  ></path>
+                </svg>
+                <blockquote>
+                  <p className="text-xl font-medium text-gray-900 md:text-2xl dark:text-white">
+                    "Website Ocean Guard Community is incredible. It offers a
+                    range of resources and easy-to-use reporting tools, from
+                    environmental surveys to collaborative projects. The ideal
+                    platform for making a positive impact on our beaches and
+                    oceans."
+                  </p>
+                </blockquote>
+                <figcaption className="flex items-center justify-center mt-6 space-x-3">
+                  <img
+                    className="w-6 h-6 rounded-full"
+                    src="https://flowbite.s3.amazonaws.com/blocks/marketing-ui/avatars/michael-gouch.png"
+                    alt="profile picture"
+                  />
+                  <div className="flex items-center divide-x-2 divide-gray-500 dark:divide-gray-700">
+                    <div className="pr-3 font-medium text-gray-900 dark:text-white">
+                      Resanti
+                    </div>
+                    <div className="pl-3 text-sm font-light text-gray-500 dark:text-gray-400">
+                      CEO at Home
+                    </div>
+                  </div>
+                </figcaption>
+              </figure>
             </div>
-
-            <div className="group p-6 sm:p-8 rounded-3xl bg-white border border-gray-100 dark:shadow-none dark:border-gray-700 dark:bg-gray-800 bg-opacity-50 shadow-2xl shadow-gray-600/10">
-              <div className="relative overflow-hidden rounded-xl">
-                <img
-                  src={ImgBeach}
-                  alt="art cover"
-                  loading="lazy"
-                  width="1000"
-                  height="667"
-                  className="h-64 w-full object-cover object-top transition duration-500 group-hover:scale-105"
-                />
-              </div>
-              <div className="mt-6 relative">
-                <h3 className="text-2xl font-semibold text-gray-800 dark:text-white">
-                  Community Efforts to Save Our Beaches
-                </h3>
-                <p className="mt-6 mb-8 text-gray-600 dark:text-gray-300">
-                  Discover inspiring stories of local communities working
-                  together to keep beaches clean and safe for everyone.
-                </p>
-                <a className="inline-block" href="#">
-                  <span className="text-info dark:text-blue-300">
-                    Read more
-                  </span>
-                </a>
-              </div>
-            </div>
-
-            <div className="group p-6 sm:p-8 rounded-3xl bg-white border border-gray-100 dark:shadow-none dark:border-gray-700 dark:bg-gray-800 bg-opacity-50 shadow-2xl shadow-gray-600/10">
-              <div className="relative overflow-hidden rounded-xl">
-                <img
-                  src={ImgOcean}
-                  alt="art cover"
-                  loading="lazy"
-                  width="1000"
-                  height="667"
-                  className="h-64 w-full object-cover object-top transition duration-500 group-hover:scale-105"
-                />
-              </div>
-              <div className="mt-6 relative">
-                <h3 className="text-2xl font-semibold text-gray-800 dark:text-white">
-                  Simple Actions to Protect Ocean Habitats
-                </h3>
-                <p className="mt-6 mb-8 text-gray-600 dark:text-gray-300">
-                  Explore practical tips for individuals and families to
-                  contribute to ocean conservation efforts in everyday life.
-                </p>
-                <a className="inline-block" href="#">
-                  <span className="text-info dark:text-blue-300">
-                    Read more
-                  </span>
-                </a>
-              </div>
-            </div>
-          </div>
+          </section>
         </div>
-      </div>
-
-      <div className=" w-full flex justify-center items-center ">
-        <section>
-          <div className="max-w-screen-xl px-4 py-8 mx-auto text-center lg:py-24 lg:px-6">
-            <figure className="max-w-screen-md mx-auto">
-              <svg
-                className="h-12 mx-auto mb-3 text-gray-400 dark:text-gray-600"
-                viewBox="0 0 24 27"
-                fill="none"
-                xmlns="http://www.w3.org/2000/svg"
-              >
-                <path
-                  d="M14.017 18L14.017 10.609C14.017 4.905 17.748 1.039 23 0L23.995 2.151C21.563 3.068 20 5.789 20 8H24V18H14.017ZM0 18V10.609C0 4.905 3.748 1.038 9 0L9.996 2.151C7.563 3.068 6 5.789 6 8H9.983L9.983 18L0 18Z"
-                  fill="currentColor"
-                ></path>
-              </svg>
-              <blockquote>
-                <p className="text-xl font-medium text-gray-900 md:text-2xl dark:text-white">
-                  "Website Ocean Guard Community is incredible. It offers a
-                  range of resources and easy-to-use reporting tools, from
-                  environmental surveys to collaborative projects. The ideal
-                  platform for making a positive impact on our beaches and
-                  oceans."
-                </p>
-              </blockquote>
-              <figcaption className="flex items-center justify-center mt-6 space-x-3">
-                <img
-                  className="w-6 h-6 rounded-full"
-                  src="https://flowbite.s3.amazonaws.com/blocks/marketing-ui/avatars/michael-gouch.png"
-                  alt="profile picture"
-                />
-                <div className="flex items-center divide-x-2 divide-gray-500 dark:divide-gray-700">
-                  <div className="pr-3 font-medium text-gray-900 dark:text-white">
-                    Resanti
-                  </div>
-                  <div className="pl-3 text-sm font-light text-gray-500 dark:text-gray-400">
-                    CEO at Home
-                  </div>
-                </div>
-              </figcaption>
-            </figure>
-          </div>
-        </section>
-      </div>
+      </section>
     </>
   );
 };
