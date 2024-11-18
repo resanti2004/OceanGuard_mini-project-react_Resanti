@@ -10,18 +10,22 @@ const useReportStore = create((set) => ({
     desc: "",
     image: null,
   },
-  reports: [], // State untuk menyimpan history laporan
+
+  reports: [],
   setReportData: (newData) =>
     set((state) => ({
       reportData: { ...state.reportData, ...newData },
     })),
-  setReports: (newReports) => set({ reports: newReports }), // Fungsi untuk mengubah laporan yang diambil dari API
+
+  setReports: (newReports) => set({ reports: newReports }),
+
   updateReport: (updatedReport) =>
     set((state) => ({
       reports: state.reports.map((report) =>
         report.id === updatedReport.id ? updatedReport : report
-      ), // Mengupdate laporan di dalam daftar
+      ),
     })),
+
   resetReportData: () =>
     set({
       reportData: {

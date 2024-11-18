@@ -1,6 +1,5 @@
 import React, { useState, useEffect } from "react";
 import { useNavigate } from "react-router-dom";
-import bgImage from "../assets/bg-login.webp";
 import logoOCG from "../assets/logoOCG.png";
 import { Button, Checkbox, Label, TextInput } from "flowbite-react";
 
@@ -40,11 +39,11 @@ const LoginForm = () => {
 
   return (
     <div
-      className="bg-cover bg-center bg-fixed"
-      style={{ backgroundImage: `url(${bgImage})` }}
+      className="bg-cover bg-center bg-fixed "
+      // style={{ backgroundImage: `url(${bgImage})` }}
     >
       <div className="h-screen flex justify-center items-center">
-        <div className="bg-white/85 mx-4 p-20 rounded-3xl backdrop-filter backdrop-blur-md shadow-md w-full md:w-1/2 lg:max-w-lg">
+        <div className="bg-white/85 mx-4 p-20 rounded-3xl backdrop-filter backdrop-blur-md shadow-md w-full md:w-1/2 lg:max-w-lg border border-primary">
           <div className="absolute top-6 left-8">
             <img src={logoOCG} alt="Logo OCG" className="w-32 h-auto" />
           </div>

@@ -11,7 +11,7 @@ export default {
       colors: {
         primary: "#106592", // Warna biru khusus
         secondary: "#BEEAF7", // Warna hitam khusus
-        accent: "#FFAD1F", // Warna kuning khusus
+        accent: "#6fcbfc", // Warna kuning khusus
         softGrey: "#F3F3F3",
       },
       boxShadow: {

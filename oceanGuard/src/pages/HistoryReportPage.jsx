@@ -1,12 +1,12 @@
 import React from "react";
-import NavigationBar from "../components/NavigationBar";
 import FooterBar from "../components/FooterBar";
 import HistoryReport from "../components/HistoryReport";
+import Navigation from "../components/Navigation";
 
 const HistoryReportPage = () => {
   return (
     <>
-      <NavigationBar />
+      <Navigation />
       <HistoryReport />
       <FooterBar />
     </>
