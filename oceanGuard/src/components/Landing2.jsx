@@ -1,11 +1,4 @@
 import React from "react";
-import logoSingleOCG from "../assets/logoSingleOCG.png";
-import logo1 from "../assets/logo1.webp";
-import logo2 from "../assets/logo2.webp";
-import logo3 from "../assets/logo3.webp";
-import logo4 from "../assets/logo4.webp";
-import logo5 from "../assets/logo5.webp";
-import logo6 from "../assets/logo6.webp";
 import { FaExclamationTriangle, FaBell, FaGlobe } from "react-icons/fa";
 import { useNavigate } from "react-router-dom";
 import PageIllustration from "./PageIllustration";
@@ -198,62 +191,6 @@ const Landing2 = () => {
                   </div>
                 </div>
               ))}
-            </div>
-          </div>
-        </div>
-      </section>
-
-      <section className="mx-auto ">
-        <div className="container px-5 mx-auto lg:px-24">
-          <div className="flex flex-col w-full mb-4 text-left lg:text-center">
-            <img src={logoSingleOCG} alt="" className="w-24 h-auto mx-auto" />
-            <h1 className="mb-2 text-3xl font-bold text-primary md:text-4xl dark:text-white">
-              OCGuard Community Partner
-            </h1>
-            <div className="w-32 h-1 bg-primary mx-auto mt-2 mb-10"></div>
-          </div>
-          <div className="grid grid-cols-2 gap-16 mb-16 text-center lg:grid-cols-3">
-            <div className="flex items-center justify-center">
-              <img
-                src={logo1}
-                alt="Google Logo"
-                className="block object-contain h-16 greyC"
-              ></img>
-            </div>
-            <div className="flex items-center justify-center">
-              <img
-                src={logo2}
-                alt="Shopify Logo"
-                className="block object-contain h-16 greyC"
-              ></img>
-            </div>
-            <div className="flex items-center justify-center">
-              <img
-                src={logo3}
-                alt="Cloudflare Logo"
-                className="block object-contain h-16 greyC"
-              ></img>
-            </div>
-            <div className="flex items-center justify-center">
-              <img
-                src={logo4}
-                alt="Paypal Logo"
-                className="block object-contain h-16 greyC"
-              ></img>
-            </div>
-            <div className="flex items-center justify-center">
-              <img
-                src={logo5}
-                alt="Shopify Logo"
-                className="block object-contain h-16 greyC"
-              ></img>
-            </div>
-            <div className="flex items-center justify-center">
-              <img
-                src={logo6}
-                alt="Cloudflare Logo"
-                className="block object-contain h-16 greyC"
-              ></img>
             </div>
           </div>
         </div>
