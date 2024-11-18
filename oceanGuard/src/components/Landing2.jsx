@@ -156,7 +156,7 @@ const Landing2 = () => {
           </div>
         </div>
 
-        <div className=" py-8 px-40 mb-16">
+        <div className=" py-8 px-40">
           <div className="text-center mb-12">
             <p className="text-3xl font-bold text-primary md:text-4xl mb-2">
               Discover the Activity
@@ -196,7 +196,7 @@ const Landing2 = () => {
         </div>
       </section>
 
-      <div id="blog" className="mb-20 mt-32">
+      <div id="blog" className="mb-20 mt-10">
         <div className="max-w-7xl mx-auto px-6 md:px-12 xl:px-6">
           <div className="mb-12 space-y-2 text-center">
             <h2 className="text-3xl font-bold text-primary md:text-4xl dark:text-white">
@@ -296,7 +296,7 @@ const Landing2 = () => {
 
       <div className=" w-full flex justify-center items-center ">
         <section>
-          <div className="max-w-screen-xl px-4 py-8 mx-auto text-center lg:py-24 lg:px-6">
+          <div className="max-w-screen-xl py-8 mx-auto text-center lg:py-24 lg:px-6">
             <figure className="max-w-screen-md mx-auto">
               <svg
                 className="h-12 mx-auto mb-3 text-gray-400 dark:text-gray-600"
