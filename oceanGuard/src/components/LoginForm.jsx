@@ -11,8 +11,8 @@ const LoginForm = () => {
 
   // Data pengguna statis (misalnya untuk testing)
   const staticUser = {
-    email: "user@example.com",
-    password: "password123",
+    email: "resanti@gmail.com",
+    password: "resanti123",
   };
 
   // Cek jika sudah login, redirect ke halaman home
