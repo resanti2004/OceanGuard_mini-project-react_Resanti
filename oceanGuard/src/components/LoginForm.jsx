@@ -59,7 +59,6 @@ const LoginForm = () => {
               <TextInput
                 id="email"
                 type="email"
-                placeholder="user@example.com"
                 required
                 value={email}
                 onChange={(e) => setEmail(e.target.value)}
